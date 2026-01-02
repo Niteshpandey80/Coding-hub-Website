@@ -5,7 +5,7 @@ import FeaturesSection from '../sections/FeaturesSection'
 import PricingSection from '../sections/PricingSection'
 import TestimonialsSection from '../sections/Testimonials'
 import Footer from '../components/Footer'
-import CtaSection from '../sections/CtaSection'
+import CtaSection from "../sections/CtaSection.jsx";
 
 const Home = () => {
   return (
