@@ -5,7 +5,8 @@ import FeaturesSection from '../sections/FeaturesSection'
 import PricingSection from '../sections/PricingSection'
 import TestimonialsSection from '../sections/Testimonials'
 import Footer from '../components/Footer'
-import CtaSection from "../sections/CtaSection.jsx";
+import CashSection from '../sections/CashSection'
+
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
        <FeaturesSection/>
        <PricingSection/>
        <TestimonialsSection/>
-       <CtaSection/>
+       <CashSection/>
        <Footer/>
     </div>
   )
