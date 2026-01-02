@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
 
-const CTASection = () => {
+const CtaSection = () => {
   return (
     <section className="relative py-32 overflow-hidden">
       <img
@@ -31,4 +31,4 @@ const CTASection = () => {
   );
 };
 
-export default CTASection;
+export default CtaSection;

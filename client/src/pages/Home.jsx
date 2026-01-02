@@ -4,8 +4,8 @@ import LogoCarousel from '../sections/LogoCarousel'
 import FeaturesSection from '../sections/FeaturesSection'
 import PricingSection from '../sections/PricingSection'
 import TestimonialsSection from '../sections/Testimonials'
-import CTASection from '../sections/CtaSection'
 import Footer from '../components/Footer'
+import CtaSection from '../sections/CtaSection'
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
        <FeaturesSection/>
        <PricingSection/>
        <TestimonialsSection/>
-       <CTASection/>
+       <CtaSection/>
        <Footer/>
     </div>
   )
