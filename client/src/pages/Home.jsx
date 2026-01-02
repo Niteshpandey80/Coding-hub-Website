@@ -1,11 +1,11 @@
-import React from 'react'
-import HeroSection from '../sections/HeroSection'
-import LogoCarousel from '../sections/LogoCarousel'
-import FeaturesSection from '../sections/FeaturesSection'
-import PricingSection from '../sections/PricingSection'
-import TestimonialsSection from '../sections/Testimonials'
-import Footer from '../components/Footer'
-import CashSection from '../sections/CashSection'
+import HeroSection from '../sections/HeroSection.jsx'
+import LogoCarousel from '../sections/LogoCarousel.jsx'
+import FeaturesSection from '../sections/FeaturesSection.jsx'
+import PricingSection from '../sections/PricingSection.jsx'
+import TestimonialsSection from '../sections/Testimonials.jsx'
+import CashSection from '../sections/CashSection.jsx'
+import Footer from '../components/Footer.jsx'
+
 
 
 const Home = () => {
