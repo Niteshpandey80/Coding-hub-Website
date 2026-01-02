@@ -3,32 +3,32 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "David Wilson",
-    role: "Early Forex Investor",
+    name: "Aarav Mehta",
+    role: "Frontend Developer",
     image: "/av1.png",
     text:
-      "The customer support is exceptional, and the platform’s intuitive design made getting started with crypto trading seamless. A game-changer for both beginners and pros.",
+      "CodingHub helped me build landing pages much faster. The UI designs and ready-made components are clean, modern, and easy to integrate into my projects.",
   },
   {
-    name: "Emily Zhang",
-    role: "DeFi Developer",
+    name: "Sophia Chen",
+    role: "Full Stack Developer",
     image: "/av2.png",
     text:
-      "We’ve seen remarkable improvements in our trading efficiency since switching to ForexTrade. The smart order routing and liquidity aggregation are particularly impressive.",
+      "The component library saved me hours of development time. Everything is well-structured, responsive, and production-ready.",
   },
   {
-    name: "James Rodriguez",
-    role: "Forex Security Expert",
+    name: "Daniel Johnson",
+    role: "UI/UX Designer",
     image: "/av3.png",
     text:
-      "The security features are robust and the regular updates keep us ahead of emerging threats. It’s exactly what the Forex industry needed.",
+      "I love how I can preview full designs before downloading. CodingHub bridges the gap between design and development perfectly.",
   },
   {
-    name: "Lisa Thompson",
-    role: "Portfolio Manager",
+    name: "Priya Sharma",
+    role: "Startup Founder",
     image: "/av4.png",
     text:
-      "The platform’s advanced trading strategies and intuitive interface are invaluable for managing complex portfolios effectively.",
+      "With CodingHub, our team ships faster. The designs are premium-quality and the Pro plan is absolutely worth it for startups.",
   },
 ];
 
@@ -37,10 +37,10 @@ const TestimonialsSection = () => {
     <section className="relative py-32 overflow-hidden">
       <div className="text-center max-w-2xl mx-auto mb-20">
         <h2 className="text-4xl md:text-6xl font-semibold mb-4">
-          Trusted by <span className="text-indigo-400">Traders</span>
+          Trusted by <span className="text-indigo-400">Coders</span>
         </h2>
         <p className="text-zinc-400 text-lg">
-          Join thousands of satisfied traders on ForexTrade
+          Join thousands of satisfied Coders on CodingHub
         </p>
       </div>
 

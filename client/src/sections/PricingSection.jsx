@@ -3,60 +3,59 @@ import React from "react";
 
 const plans = [
   {
-    name: "Basic Trader",
+    name: "Starter",
     price: "$0",
     duration: "/month",
-    description: "Perfect for beginners starting their crypto journey",
+    description: "Perfect for developers getting started with UI design",
     features: [
-      "Basic spot trading",
-      "Market & limit orders",
-      "Basic market analysis",
-      "Email support",
+      "Access to free UI designs",
+      "Download preview images",
+      "Basic components library",
+      "Community support",
     ],
     highlighted: false,
   },
   {
-    name: "Pro Trader",
+    name: "Pro",
     badge: "Most Popular",
     price: "$29",
     duration: "/month",
-    description: "Advanced features for serious traders",
+    description: "Best for developers building real-world projects",
     features: [
-      "Advanced trading tools",
-      "Margin trading up to 10x",
-      "Advanced technical analysis",
+      "Full UI design library",
+      "Production-ready React & Tailwind components",
+      "Editable source files",
+      "One-click downloads",
       "Priority support",
-      "API access",
     ],
     highlighted: false,
   },
   {
-    name: "Institutional",
+    name: "Enterprise",
     price: "Custom",
-    description: "Enterprise-grade solutions for institutions",
+    description: "Advanced solutions for teams and agencies",
     features: [
-      "Custom trading solutions",
-      "Unlimited trading volume",
-      "OTC desk access",
+      "Unlimited design & component access",
+      "Team collaboration",
+      "Custom UI components",
+      "Private design requests",
       "Dedicated account manager",
-      "Custom API integration",
       "24/7 priority support",
     ],
     highlighted: false,
   },
 ];
-
 const PricingSection = () => {
   return (
     <section className="container mx-auto px-4 py-32">
       <div className="text-center max-w-2xl mx-auto mb-20">
         <h2 className="text-4xl md:text-6xl font-semibold mb-6">
-          Choose Your <span className="text-indigo-400">Trading</span>
+          Choose Your <span className="text-indigo-400">Coding</span>
           <br />
           <span className="text-indigo-400">Plan</span>
         </h2>
         <p className="text-zinc-400 text-lg">
-          Select the perfect trading plan with advanced features and competitive
+          Select the perfect Coding plan with advanced features and competitive
           fees
         </p>
       </div>

@@ -1,38 +1,38 @@
 import {
-  Wallet,
-  BarChart3,
-  ShieldCheck,
-  Bot,
+ LayoutDashboard,
+  Code2,
+  Image,
+  Download,
 } from "lucide-react";
 import React, { useState } from "react";
 
 const features = [
   {
-    title: "Smart Wallet Tracking",
+    title: "UI Design Library",
     description:
-      "Track balances, monitor performance, and manage your crypto wallets with real-time insights.",
-    icon: Wallet,
+      "Explore a curated collection of modern UI designs for dashboards, landing pages, and web apps.",
+    icon: LayoutDashboard,
     image: "/fit1.png",
   },
   {
-    title: "Real-Time Analytics",
+    title: "Ready-to-Use Components",
     description:
-      "Make informed decisions using live market data, charts, and performance indicators.",
-    icon: BarChart3,
+      "Download production-ready React, Tailwind, and CSS components to speed up development.",
+    icon: Code2,
     image: "/fit2.png",
   },
   {
-    title: "Risk Management Tools",
+    title: "Design Previews",
     description:
-      "Set stop-loss, take-profit, and risk limits to protect your capital and trade with confidence.",
-    icon: ShieldCheck,
+      "Preview full UI screens, components, and layouts before downloading them for your project.",
+    icon: Image,
     image: "/fit3.png",
   },
   {
-    title: "Automated Trading Bots",
+    title: "One-Click Download",
     description:
-      "Deploy smart trading bots that execute strategies automatically based on market conditions.",
-    icon: Bot,
+      "Instantly download images, components, and templates and start building your website today.",
+    icon: Download,
     image: "/fit4.png",
   },
 ];
@@ -44,12 +44,12 @@ const FeaturesSection = () => {
     <section className="container mx-auto px-4 py-28">
       <div className="max-w-2xl mb-20">
         <h2 className="text-4xl md:text-6xl mb-6 tracking-tight clash-display">
-          Advanced Trading <br />
+          Advanced Coding <br />
           <span className="grad1 font-medium">Features & Tools</span>
         </h2>
         <p className="text-lg text-zinc-400">
-          Experience professional-grade trading tools designed for modern
-          traders.
+          Experience professional-grade coding tools designed for modern
+          coders.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
